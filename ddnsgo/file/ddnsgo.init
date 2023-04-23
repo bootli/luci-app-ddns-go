@@ -12,8 +12,8 @@ START=99
 USE_PROCD=1
 
 PROG=/usr/bin/ddns-go
-CONFDIR=/etc/ddns-go
-CONF=/etc/ddns-go/ddnsgo-config.yaml
+CONFDIR=/etc/config
+CONF=/etc/config/ddnsgo-config.yaml
 
 get_config() {
         config_get_bool enabled $1 enabled 1
