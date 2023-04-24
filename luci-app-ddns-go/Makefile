@@ -16,7 +16,7 @@ LUCI_PKGARCH:=all
 
 define Package/$PKG_NAME/conffiles
 /etc/config/ddnsgo
-/etc/ddns-go/ddnsgo-config.yaml
+/etc/config/ddnsgo-config.yaml
 endef
 
 include $(TOPDIR)/feeds/luci/luci.mk
